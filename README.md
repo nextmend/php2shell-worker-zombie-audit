@@ -1,6 +1,6 @@
-# Audit Zombie Worker Pasca-Patch PHP2Shell & CVE-2026-115560
+# Audit Pasca-Patch PHP2Shell: Bahaya Zombie Worker
 
-Repo referensi dan alat uji forensik untuk artikel: **"Audit Pasca-Patch PHP2Shell: Mengapa Long-Running Worker Tetap Rentan"** oleh [Nextmend](https://nextmend.dev).
+Repo referensi dan alat uji forensik untuk artikel: **"Audit Pasca-Patch PHP2Shell: Bahaya Zombie Worker"** oleh [Nextmend](https://nextmend.dev).
 
 ## Gambaran Masalah
 Setelah insiden kritis PHP2Shell (CVE-2026-109618 & CVE-2026-109619) dan kerentanan susulan pada `session.upload_progress` (CVE-2026-115560), banyak tim engineering menjalankan `apt-get upgrade` atau memperbarui image Docker mereka.
